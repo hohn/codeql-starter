@@ -1,3 +1,6 @@
 name: cpp-PURPOSE
 version: 0.0.1
-libraryPathDependencies: codeql-cpp
+dependencies:
+  # This uses the latest version of the codeql/cpp-all library.
+  # You may want to change to a more precise semver string.
+  codeql/cpp-all: "*"
